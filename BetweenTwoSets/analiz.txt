@@ -1,0 +1,2 @@
+Bu problemde bizden istenen a arrayinde verilen sayilarin sayilarin katsayisi olup b arrayinde verilen sayilarin ortak böleni olan a arrayindeki en büyük sayi ile b arrayindeki en küçük sayi arasinda kalan sayilari bulmakti.
+Bunun için array boyutlarini ve elemanlari aldiktan sonra 2 fonksiyon kullanarak bu kontrol islemini yaptim.
