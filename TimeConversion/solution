@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class deneme {
+    public static void main(String args[]){
+        Scanner clockAsk=new Scanner(System.in);
+        int convert;
+        boolean pmCheck;
+
+        String oldPart,newPart;
+
+        String clock=clockAsk.next();
+        pmCheck=clock.contains("PM");
+
+        if (pmCheck){
+            convert=Integer.parseInt(clock.substring(0,2))+12;
+            oldPart=clock.substring(0,2);
+            newPart=Integer.toString(convert);
+            if (oldPart.equals("12"))
+                System.out.println(clock.substring(0,8));
+            else
+                System.out.println(clock.replace(oldPart,newPart).substring(0,8));
+        }else {
+            oldPart=clock.substring(0,2);
+            if (oldPart.equals("12")){
+                System.out.println(clock.replace(oldPart,"00").substring(0,8));
+            }else System.out.println(clock.substring(0,8));
+        }
+    }
+}

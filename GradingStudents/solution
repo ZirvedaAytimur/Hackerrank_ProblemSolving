@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class deneme {
+
+    public static void main(String[] args) {
+        int studens,round;
+
+        Scanner scanner=new Scanner(System.in);
+        studens=scanner.nextInt();
+
+        int[] grades=new int[studens];
+
+        for (int i=0;i<studens;i++){
+            grades[i]=scanner.nextInt();
+            if (grades[i]%5!=0&&grades[i]>37){
+                round=(grades[i]+4)/5*5;
+                if (round-grades[i]<3){
+                    grades[i]=round;
+                }
+            }
+        }
+
+        for (int j=0;j<studens;j++){
+            System.out.println(grades[j]);
+        }
+    }
+}

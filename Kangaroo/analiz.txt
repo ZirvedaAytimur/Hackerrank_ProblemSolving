@@ -1,0 +1,4 @@
+Bu problemde konumlari ve hizlari verilen 2 kangurunun bulusup bulusamayacagina baktik.
+Burada 2 ana nokta vardi.
+Birincisi önde baslayan kangurunun hizida digerinden fazla ise direk olarak bulusamayacaklarini soylememizdi.
+Ikinci nokta bir while dongusu kurarak konumlari hiza gore arttirarak esit oldugunda veya arkada baslayan onde baslayani gectiginde donguyu durdurmakti.

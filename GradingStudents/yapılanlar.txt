@@ -1,0 +1,7 @@
+Bu problemde bizden istenen notlari 5 lik olarak yuvarlamamizdi.
+Ancak bu sayilar ile 5 lik yuvarlamalari arasinda 3 veya daha fazla fark var ise yuvarlamayacaktik.
+Ve 40 tan dusuk olan notlardada 40 ile fark 3 veya daha fazla fark varsa yuvarlamayacaktik.
+Bunun icin bir array tuttum ve buraya sayi girildikce sayinin 37 den buyuk mu ve 5 ile modu 0 dan farkli mi diye kontrol ettim.
+Bu sorguya girenleri (grades[i]+4)/5*5 diyerek en yakin 5 ligine yuvarladim.
+Ve aradaki fark 3 ten kucuk ise onu array e ekledim.
+Son olarak array i bastirdim.

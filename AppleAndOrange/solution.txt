@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class deneme {
+
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        int s,t,a,b,m,n,appleNumbers=0,orangeNumbers=0,appleCoor,orangeCoor;
+
+        s=scanner.nextInt();
+        t=scanner.nextInt();
+        a=scanner.nextInt();
+        b=scanner.nextInt();
+        m=scanner.nextInt();
+        n=scanner.nextInt();
+
+        for (int i=0;i<m;i++){
+            appleCoor=scanner.nextInt();
+            appleCoor+=a;
+            if (appleCoor>=s&&appleCoor<=t)
+                appleNumbers++;
+        }
+
+        for (int j=0;j<n;j++){
+            orangeCoor=scanner.nextInt();
+            orangeCoor+=b;
+            if (orangeCoor>=s&&orangeCoor<=t)
+                orangeNumbers++;
+        }
+
+        System.out.println(appleNumbers);
+        System.out.println(orangeNumbers);
+    }
+}

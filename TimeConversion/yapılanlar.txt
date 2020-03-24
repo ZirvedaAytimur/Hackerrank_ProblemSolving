@@ -1,0 +1,19 @@
+Bu soruda bizden istenen 12 lik formatta verilen bir saati 24 lük saat formatina dönüstürmekti.
+Bunun için string methodlarinin isimize yarayacagini düsündüm.
+contains'i string içinde arama yapmak için kullandim.
+Örnegin pmCheck=clock.contains("PM") dedigimde eger PM yazisi içeriyorsa true dönüyordu.
+subString'i verilen saati parçalamak için kullandim.
+Örnegin clock.substring(0,2) dedigimde bana saatin ilk 2 basamagini verdi.
+replace ise String içinde belirttigim bölüm ile yeni verdigim bölümün degistirilmesini sagladi.
+Örnegin clock.replace(oldPart,"00") ile old part olarak belirledigim kisim yerine 00 yazildi.
+Bu soruda isimize yarayan diger nokta ise Integer dan String e String den Integer a döndürme islemleri oldu.
+String i Integer a döndürmek için convert=Integer.parseInt(clock) methodunu uyguladik.
+Integer i String e döndürmek için newPart=Integer.toString(convert); methodunu uyguladik.
+Problemimizin algoritmik kismina gelirsek input olarak girilen 07:05:08PM i 19:05:08 e dönüstürmekti.
+Görüldügü gibi degisen kisim sadece ilk 2 basamagi 12 ile toplamak ve pm yazisini silmekti.
+07:05:08AM oldugunda ise 07:05:08 formatinda yazacak ve sadece AM yazisini silecektik.
+Boolean olarak PM i clockta aradim eger varsa clock taki ilk 2 elemani aldim eger 12 ise 12 pm de 12 olarak kalacagindan pm kismini almadan ekrana bastirdim.
+Ama 12 degilse ilk iki elemani 12 ile toplayip pm kismini almadan ekrana bastirdim.
+Boolean false dönerse yani AM ise yine clock un ilk 2 elemanini aldim.
+Eger 12 ise 12 am de 00 olacagindan bu elemanlari 00 ile degistirdim ve AM yazisini almadan ekrana bastirdim.
+12 degil ise AM yazisini almadan ekrana bastirdim. 
