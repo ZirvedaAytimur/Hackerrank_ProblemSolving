@@ -1,0 +1,6 @@
+Bu problemde bizden 1700 den 2700 yilina kadar yilin 256. günü olan programlama gününün Rusyada hangi güne denk geldigini bulmamiz isteniyordu.
+Burada önemli nokta artik yili bulmakti çünkü artik yillarda programlama günü 12 eylül iken diger yillarda 13 eylüldü.
+Rusyada 1917 e kadar Julian takvimi kullaniliyormus bu takvimde 4 e bölünen her yil artik yil kabul ediliyormus.
+1919 dan beride Miladi takvim kullaniliyormus ve buradada 4 e bölünen ama 100 e bölünmeyen yillar artik yil kabul ediliyor ama buradaki istisna 1000 e bölünen yillar.
+1918 deki istisna ise o yilda 31 ocaktan sonraki günü 14 subat almislar.
+Bu istisnalarida kullanarak kodumuzu yazinca aslinda çok karmasik gibi görünen problem hemen çözüldü.
