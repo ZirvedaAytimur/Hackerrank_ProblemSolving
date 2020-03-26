@@ -1,0 +1,10 @@
+Bu problemde tek bir satırda String olarak verilen U(up) ve D(down) lerden oluşan karakterlerle kaç tane vadi olduğunu bulmaktı.
+Burada önemli olan nokta deniz seviyesi yani sıfırın altındaysa vadi olarak kabul edeceğimizdi.
+Bunun için bir path tanımladım ve eğer U gelirse arttırdım D gelirse azalttım.
+Eğer path 0 iken D geldiyse vadi olduğunu anladım ve countu arttırdım.
+Ama path 0 a eşit değilse sadece path i azalttım.
+Burada önemli olan nokta tek satırlık bir string de tek tek karakterleri nasıl bulacağımızdı.
+Bunun için bir char tanımladım ve bunu for içinde s.charAt(i) yazarak her karakteri yaptım.
+Ve bu problemde bir hata ile karşılaştım integer olarak kullanıcıdan girdi aldıktan sonra string olarak girdi almıyordu.
+Bunun neden scanner da yeni bir type a geçince tek satırda bir şey alacaksak önceki ifadede nextLine() dememizmiş böylece satırın sonuna bizi götürüyormuş.
+Bu ifadeyi n=scanner.nextInt(); scanner.nextLine(); böyle kullandım ve sonrasında alt satırdı yeni satırım için tüm stringi girdi olarak aldım.
