@@ -1,0 +1,13 @@
+Bu problem bize sayfa sayisi verilen bir kitapta belirtilen sayfaya en yakin kaç kere çevirerek ulasacagimizi soruyor.
+Ön sayfadan veya arka sayfadan çevirmeye baslayabiliriz.
+Burada kitabin 1. sayfasinin sagdan baslandigi söylenmisti.
+Kitabin son sayfasi kitabin boyutuna göre sadece sol sayfada olabilecegi söylenmis.
+Soruyu çözmek için algoritmik olarak düsününce ortaya çikan sonuç su oldu:
+Kitabin sol sayfasi asla bos olamaz dolayisiyla ilk sayfayida 0 kabul edersek tek sayi bize verilerse 1 çikararak çift sayilar üzerinden yani sol sayfadan problemi çözebiliriz.
+Böyle düsündügüm için sayfa sayisi ve istenilen sayfa eger tekse yani sagdaki sayfa ise bunu 1 eksilterek çift yani soldaki sayi yaptim.
+Sayfayi bulmak için önden veya arkadan çevirmeye baslama seçeneklerim vardi bunun için istenilen sayfa sayisi eger toplam sayfa sayisindan küçükse önden çevirmeye baslamam gerektigini anliyordum.
+Önden çevirmeye basladigimda örnek vererek anlatirsak ilk sayfada soldaki sayfam 0 2 ye bölünce 0 elde ediyorum henüz çevirme yapmadim.
+1 çevirme yapip diger sayfaya geçince soldaki sayfam 2 2 ye bölünce 1. 1 çevirme yaptim.
+Bunun için istenilen sayfa sayisini 2 ye böldüm.
+Eger istenilen sayfa sayisi toplam sayfa sayisindan küçükse yani arkadan çevirmeye baslanacaksa bunu (toplam sayfa sayisi-istenilen saya sayisi)/2 yaptim.
+Ve böylece toplam çevirme sayisini buldum.
