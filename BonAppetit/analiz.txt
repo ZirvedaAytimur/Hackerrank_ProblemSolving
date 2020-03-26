@@ -1,0 +1,2 @@
+Problemin paragraf kisminda olaylar biraz karmasiklastirilmis.
+Sadece input ve output kismina bakilinca çok rahat bir sekilde matematiksel islem ile çözülüyor.
