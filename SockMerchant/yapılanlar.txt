@@ -1,0 +1,3 @@
+Bu problemde bizden istenen dizi olarak verilen sayilardan ayni olanlari eslestirme yapmamiz ve toplam çift sayisini bulmamizdi.
+Burada flag tutarak arraydaki tekrarlanan elemanlari buldum ve her buldugumda bunlari pair fonksiyonuna gönderdim.
+Burada o elemandan kaç tane varsa count ile tutuyor ve bulunan countu ikiye bölerek çift sayisini buluyor.
