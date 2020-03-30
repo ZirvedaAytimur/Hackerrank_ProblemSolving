@@ -1,0 +1,5 @@
+Bu problemde ilk karşıma çok komplike gibi görünen bir problem çıktı.
+Magic square nedir ilk onu öğrenmem gerekti bu durum tüm satır sütun ve çaprazlamaları aynı toplamı aynı olan bir matrixti.
+Biraz daha araştırınca bu matrixin özel bir matrix olduğunu ve 3 boyutlu olan matrixler için toplamların 15 olduğunu gördüm.
+Ve bu özel matrixlerden üçlü matrix olarak 8 tane varmış.
+Girdi olarak verilen matrixi tek tek bu matrixlerden çıkarıp min cost u bulmak en kısa yoldan çözümdü.
