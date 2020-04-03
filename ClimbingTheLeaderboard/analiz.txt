@@ -1,0 +1,3 @@
+Bu probleme algoritma düşünürken ilk başta alice in puanını score arrayinin son elemanı olarak ekleyip,
+bu arrayi büyükten küçüğe sıralarıp, sonra çift yazılanları silerek kalan arrayde alice in puanının hangi sırada olduğunu bulmak olarak düşündüm.
+Ancak bu çözüm çok uğraştırıcı oldu ve beni çözüme götürmedi bu nedenle problemde belirtildiği gibi direk söylenenlere uygun bir algoritma yazdım.
